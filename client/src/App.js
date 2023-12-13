@@ -4,17 +4,19 @@ import VideoPlayer from './components/VideoPlayer';
 import Options from './components/Options';
 import Notification from './components/Notification';
 
+
 function App() {
+
+
   return (
     <div >
-        <AppBar position='static' color='inherit'>
-          <Typography variant='h2' align='center'>
-              <VideoPlayer></VideoPlayer>
+        <AppBar position='static' color='inherit' >
+          <Typography variant='h2' align='center'>Video chat</Typography>
+        </AppBar>
+        <VideoPlayer></VideoPlayer>
               <Options>
                   <Notification></Notification>
               </Options>
-          </Typography>
-        </AppBar>
     </div>
   );
 }
